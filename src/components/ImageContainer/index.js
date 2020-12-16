@@ -1,11 +1,15 @@
 import React from 'react'
 import styles from './style.module.css'
-import ImageParagraph from '../../components/ImageParagraph'
- 
-const ImageContainer = () => <section className={styles.ImageContainer}>
-    <ImageParagraph />
-    <ImageParagraph />
-    <ImageParagraph />
-</section> 
- 
+import First from '../Images/First'
+import Second from '../Images/Second'
+import Third from '../Images/Third'
+
+  const ImageContainer = () => (
+    <section className={styles.images}>
+        <First />
+        <Second />
+        <Third />
+    </section>
+)
+
 export default ImageContainer

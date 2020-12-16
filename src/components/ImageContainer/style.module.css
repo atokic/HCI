@@ -1,0 +1,14 @@
+.ImageContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px auto;
+    width: 100%;
+    align-items: center;
+    background-color: #f3f3f3;
+
+}
+.image{
+    width: 100px;
+    height: 100px;
+    display: flex;
+}

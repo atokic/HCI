@@ -2,17 +2,18 @@
     display: flex;
     justify-content: space-evenly;
     flex-flow: row;
-    width: 480px;
+    width: 600px;
 }
  
 .navigationBar li {
     padding: 14px 15px;
     list-style: none;
-    width: fit-content;
-    font-size: 14px;
+    width: 100%;
+    font-size: 17px;
+    font-family: 'Montserrat';
     line-height: 22px;
     text-transform: uppercase;
-    color: #555
+    color: #ffffff
 }
 .navigationBar li:hover {
     border-bottom: 2px solid darkgray;
